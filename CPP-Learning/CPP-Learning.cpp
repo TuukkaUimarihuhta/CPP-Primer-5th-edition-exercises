@@ -2,7 +2,7 @@
 
 int main()
 {
-    std::cout << "2M\n";
+    std::cout << "2\115\n";
 
-    std::cout << "2\tM\n";
+    std::cout << "2\t\115\n";
 }
