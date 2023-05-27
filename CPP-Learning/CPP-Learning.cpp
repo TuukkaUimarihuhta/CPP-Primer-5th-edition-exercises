@@ -19,15 +19,17 @@ int main()
 
     double dval{ 3.14 };
     // reference marked with & at start of name, reference has to initialize with object
-    double& refVal{ dval };
+    // good for clean and neat code, can be used in functions
+    double &refVal{ dval };
     std::cout << refVal << std::endl << std::endl;
 
     int pointervalue{ 26 };
-    int* pValue{ &pointervalue };
+    int *pValue{ &pointervalue };
 
     std::cout << *pValue << " " << pointervalue << std::endl << std::endl;
     int newValue{ 80 };
     pValue = &newValue;
+    // good for clean and neat code, can be used for different functions
     // &x initializer changes what address pValue points to, pValue now points to newValue
     std::cout << pointervalue << " " << *pValue << std::endl << std::endl;
     // using *x = y changes the value which x points to, in this case newValue becomes 20
