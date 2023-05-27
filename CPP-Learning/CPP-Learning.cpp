@@ -20,6 +20,18 @@ int main()
     double dval{ 3.14 };
     // reference marked with & at start of name, reference has to initialize with object
     double& refVal{ dval };
-    std::cout << refVal << std::endl;
+    std::cout << refVal << std::endl << std::endl;
+
+    int pointervalue{ 26 };
+    int* pValue{ &pointervalue };
+
+    std::cout << *pValue << " " << pointervalue << std::endl << std::endl;
+    int newValue{ 80 };
+    pValue = &newValue;
+    // &x initializer changes what address pValue points to, pValue now points to newValue
+    std::cout << pointervalue << " " << *pValue << std::endl << std::endl;
+    // using *x = y changes the value which x points to, in this case newValue becomes 20
+    *pValue = 20;
+    std::cout << *pValue << " " << newValue << std::endl;
 
 }
