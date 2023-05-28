@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="2.18.cpp" />
     <ClCompile Include="2.20.cpp" />
+    <ClCompile Include="2.27.cpp" />
     <ClCompile Include="CPP-Learning.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
