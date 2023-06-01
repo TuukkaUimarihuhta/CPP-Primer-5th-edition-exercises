@@ -1,6 +1,6 @@
 #include <iostream>
 
-int pointer() {
+int e2_18() {
 	int x;
 	int* px = &x;
 
