@@ -147,6 +147,13 @@
     <ClCompile Include="2.29.cpp" />
     <ClCompile Include="2.30.cpp" />
     <ClCompile Include="2.31.cpp" />
+    <ClCompile Include="2.32.cpp" />
+    <ClCompile Include="2.34.cpp" />
+    <ClCompile Include="2.35.cpp" />
+    <ClCompile Include="2.36.cpp" />
+    <ClCompile Include="2.37.cpp" />
+    <ClCompile Include="2.39.cpp" />
+    <ClCompile Include="2.40.cpp" />
     <ClCompile Include="CPP-Learning.cpp" />
     <ClCompile Include="Sales_item.cpp" />
   </ItemGroup>

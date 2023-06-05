@@ -33,4 +33,5 @@ int e2_31() {
 
 	//assignment can add but not remove low-level const
 	//top-level const will be ignored during assignment
+	return 0;
 }
