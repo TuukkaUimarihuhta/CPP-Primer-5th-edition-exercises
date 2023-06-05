@@ -154,10 +154,12 @@
     <ClCompile Include="2.37.cpp" />
     <ClCompile Include="2.39.cpp" />
     <ClCompile Include="2.40.cpp" />
+    <ClCompile Include="2.41.cpp" />
     <ClCompile Include="CPP-Learning.cpp" />
     <ClCompile Include="Sales_item.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Sales_data.h" />
     <ClInclude Include="Sales_item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -66,9 +66,15 @@
     <ClCompile Include="2.40.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="2.41.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
