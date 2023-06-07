@@ -9,7 +9,7 @@
     int i = 100, sum = 0;
     for (int i = 0; i != 10; ++i)
         sum += i;
-    /* Sum will be 45, but because std::cout is outside for loops
+    Sum will be 45, but because std::cout is outside for loops
     scope and i is declared 100, i will be written as 100 instead of 10 //
     std::cout << i << " " << sum << std::endl;
 
