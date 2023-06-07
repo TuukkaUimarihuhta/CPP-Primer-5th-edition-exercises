@@ -1,6 +1,6 @@
 #include <iostream>
 
-int px() {
+int e2_20() {
 	// x is initialized with th value of 42
 	int x = 42;
 	// px holds the address of x, px is the pointer of x

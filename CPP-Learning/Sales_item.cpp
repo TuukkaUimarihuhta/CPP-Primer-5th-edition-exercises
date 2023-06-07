@@ -3,15 +3,14 @@
 
 int sales()
 {
-	/*
+	
 	//readISBN, number of copies sold, and sales price
 	Sales_item book;
 	//writeISBN, number of copies sold, total revenue, and average price
 	std::cin >> book;
 
 	std::cout << book << std::endl << std::endl;
-	*/
-	/*
+	
 	Sales_item item1, item2;
 	//read a pair of transactions
 	std::cin >> item1 >> item2;
@@ -28,7 +27,7 @@ int sales()
 		// indicates failure
 		return -1;
 	}
-	*/
+	
 
 	//variable to hold data for the next transaction
 	Sales_item curItem;
