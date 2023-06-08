@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.10.cpp" />
+    <ClCompile Include="1.11.cpp" />
+    <ClCompile Include="1.9.cpp" />
     <ClCompile Include="2.18.cpp" />
     <ClCompile Include="2.20.cpp" />
     <ClCompile Include="2.27.cpp" />
@@ -155,6 +157,10 @@
     <ClCompile Include="2.39.cpp" />
     <ClCompile Include="2.40.cpp" />
     <ClCompile Include="2.41.cpp" />
+    <ClCompile Include="3.1.cpp" />
+    <ClCompile Include="3.2.cpp" />
+    <ClCompile Include="3.4.cpp" />
+    <ClCompile Include="3.5.cpp" />
     <ClCompile Include="CPP-Learning.cpp" />
     <ClCompile Include="Sales_item.cpp" />
   </ItemGroup>
