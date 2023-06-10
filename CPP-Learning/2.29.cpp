@@ -2,7 +2,7 @@
 
 int e2_29() {
 		int i, *const cp{ &i };
-		int *p1, *const p2{p1};
+		int *p1, *const p2{ p1 };
 		const int ic{ 26 }, &r{ ic };
 		const int *const p3{ &ic };
 		const int *p;
