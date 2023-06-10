@@ -51,5 +51,11 @@
     <ClCompile Include="3.11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3.12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3.13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
