@@ -36,4 +36,6 @@
     *pValue = 20;
     std::cout << *pValue << " " << newValue << std::endl;
 
-}*/
+
+    return 0;
+}
