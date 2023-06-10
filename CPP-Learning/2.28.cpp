@@ -15,7 +15,7 @@ int e2_28() {
 	{
 		//(c)
 		//Error, ic needs to be initialized due to being const
-		const int ic, &r{ ic };
+		//const int ic, &r{ ic };
 	}
 	{
 		//(d)
