@@ -2,10 +2,10 @@
 
 int e2_29() {
 		int i, *const cp{ &i };
-		int *p1, *const p2{ p1 };
+		int *p1{}, *const p2{p1};
 		const int ic{ 26 }, &r{ ic };
 		const int *const p3{ &ic };
-		const int *p;
+		const int *p{};
 
 		{
 			//(a)
@@ -37,4 +37,5 @@ int e2_29() {
 			//Error, const variable cannot be modified
 			//ic = *p3;
 		}
+		return 0;
 }

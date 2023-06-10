@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int maine()
 {
     std::cout << "2\115\n";
 
@@ -36,4 +36,5 @@ int main()
     *pValue = 20;
     std::cout << *pValue << " " << newValue << std::endl;
 
+    return 0;
 }

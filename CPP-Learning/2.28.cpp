@@ -15,7 +15,7 @@ int e2_28() {
 	{
 		//(c)
 		//Error, ic needs to be initialized due to being const
-		const int ic, &r{ ic };
+		const int ic{}, &r{ic};
 	}
 	{
 		//(d)
@@ -27,4 +27,5 @@ int e2_28() {
 		//OK, p may point to a int that is const
 		const int *p;
 	}
+	return 0;
 }

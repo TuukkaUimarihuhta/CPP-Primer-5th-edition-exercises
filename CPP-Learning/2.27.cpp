@@ -32,12 +32,12 @@ int e2_27() {
 	{
 		//(f)
 		//Illegal, reference requires an initializer
-		const int &const r2;
+		const int &const r2{};
 	}
 	{
 		//(g)
 		//OK, values come out as undefined
-		int i;
+		int i{};
 		const int i2{ i }, &r{ i };
 	}
 	return 0;
