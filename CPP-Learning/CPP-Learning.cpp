@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int learning()
 {
     std::cout << "2\115\n";
 
