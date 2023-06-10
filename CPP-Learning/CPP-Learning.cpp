@@ -1,6 +1,6 @@
 #include <iostream>
 
-int maine()
+int main()
 {
     std::cout << "2\115\n";
 
