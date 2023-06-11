@@ -8,6 +8,7 @@ void adjSum(std::vector<int> &vec) {
     if (vec.size() < 2)
         return;
     //when the size of i is less than vec -1, add i + 1
+    //loops through all elements except the final one
     for (std::string::size_type i = 0; i < vec.size() - 1; ++i)
         //add through subscript adjacent elements together
         std::cout << vec[i] + vec[i + 1] << " ";
