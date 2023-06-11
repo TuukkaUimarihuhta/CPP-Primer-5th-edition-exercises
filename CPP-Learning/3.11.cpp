@@ -8,4 +8,5 @@ int e3_11() {
 	{
 		std::cout << c;
 	}
+	return 0;
 }
