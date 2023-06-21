@@ -164,6 +164,11 @@
     <ClCompile Include="3.23.cpp" />
     <ClCompile Include="3.24.cpp" />
     <ClCompile Include="3.25.cpp" />
+    <ClCompile Include="3.27.cpp" />
+    <ClCompile Include="3.28.cpp" />
+    <ClCompile Include="3.30.cpp" />
+    <ClCompile Include="3.31.cpp" />
+    <ClCompile Include="3.32.cpp" />
     <ClCompile Include="3.4.cpp" />
     <ClCompile Include="3.5.cpp" />
     <ClCompile Include="CPP-Learning.cpp" />
