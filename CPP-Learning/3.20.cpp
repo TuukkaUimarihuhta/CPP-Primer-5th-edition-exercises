@@ -3,7 +3,7 @@
 #include <string>
 
 //function to count the sum of two adjacent elements
-void adjSum(std::vector<int> &vec) {
+void adjaSum(std::vector<int> &vec) {
     //if the amount of elements is less than two, return
     if (vec.size() < 2)
         return;
@@ -16,7 +16,7 @@ void adjSum(std::vector<int> &vec) {
 }
 
 //function to sum first and last element
-void firstLastSum(std::vector<int> &vec) {
+void firstLastSum2(std::vector<int> &vec) {
 
     //if i is not the same size as vec size divided by two, i + 1 
     //loops around half of the vector size ie. six elements, three loops
@@ -27,7 +27,7 @@ void firstLastSum(std::vector<int> &vec) {
     std::cout << std::endl;
 }
 
-int main() {
+int e3_20() {
     //vecto that hold elements type int, no elements at start
     std::vector<int> ivec;
     int i;
@@ -36,8 +36,8 @@ int main() {
         ivec.push_back(i);
 
     //call functions with vector as argument
-    adjSum(ivec);
-    firstLastSum(ivec);
+    adjaSum(ivec);
+    firstLastSum2(ivec);
 
     return 0;
 }

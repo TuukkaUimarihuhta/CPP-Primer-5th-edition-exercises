@@ -158,6 +158,9 @@
     <ClCompile Include="3.18.cpp" />
     <ClCompile Include="3.19.cpp" />
     <ClCompile Include="3.20.cpp" />
+    <ClCompile Include="3.34.cpp" />
+    <ClCompile Include="3.35.cpp" />
+    <ClCompile Include="3.36.cpp" />
     <ClCompile Include="3.6.cpp" />
     <ClCompile Include="3.7.cpp" />
     <ClCompile Include="3.8.cpp" />

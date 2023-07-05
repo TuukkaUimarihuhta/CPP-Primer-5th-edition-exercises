@@ -3,7 +3,7 @@
 #include <string>
 
 //void function to get vector<int> size and to print element valaues
-void intVectorSize(std::vector<int> v)
+void intVectorSize2(std::vector<int> v)
 {
 	//v.size() gives the amount of elements vector has
 	std::cout << "Amount of elements: " << v.size() << std::endl;
@@ -16,7 +16,7 @@ void intVectorSize(std::vector<int> v)
 }
 
 //void function to get vector<string> size and to print element valaues
-void stringVectorSize(std::vector<std::string> v)
+void stringVectorSize2(std::vector<std::string> v)
 {
 	//v.size() gives the amount of elements vector has
 	std::cout << "Amount of elements: " << v.size() << std::endl;
@@ -52,13 +52,13 @@ int e3_21() {
 	std::vector<std::string> v7{ 10, "hi" };
 
 	//calling functions and replacing the v with the respective vector
-	intVectorSize(v1);
-	intVectorSize(v2);
-	intVectorSize(v3);
-	intVectorSize(v4);
-	intVectorSize(v5);
-	stringVectorSize(v6);
-	stringVectorSize(v7);
+	intVectorSize2(v1);
+	intVectorSize2(v2);
+	intVectorSize2(v3);
+	intVectorSize2(v4);
+	intVectorSize2(v5);
+	stringVectorSize2(v6);
+	stringVectorSize2(v7);
 
 	return 0;
 }
